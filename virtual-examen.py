@@ -30,7 +30,7 @@ def insertarDepartamento():
         nombre = input("Ingrese el nombre del departamento")
         departamento[id]=nombre
 
-def mostrarEstado():#si pero a mi no se me escucha
+def mostrarEstado():
     for k in estado:
         print(k.ljust(30, " "), end="")
         print("Estado:" + estado[k].ljust(20, " "), end="")
